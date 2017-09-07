@@ -1,0 +1,32 @@
+body {
+  color: red;
+}
+
+.left {
+  float: none;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.right {
+
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+
+}
+
+p {
+  padding: 1em;
+}
+
+.menu {
+  visibility: none;
+  height: 8em;
+}
+
+.menu:hover {
+  display: block;
+  background-color: red
+}
+
+
