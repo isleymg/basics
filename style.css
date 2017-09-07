@@ -5,6 +5,8 @@ body {
     top / cover;
   margin: 5%;
   font-family: "Helvetica";
+  transition: all 2s;
+
 }
 h1 {
   text-align: center;
@@ -28,6 +30,62 @@ nav ul li {
   padding: 1em;
 }
 
+/*[class*='col-'] {
+  float: left;
+}*/
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+.col {
+  float: left;
+
+}
+.col h2 {
+  border: 2px dashed black;
+  color: black;
+  height: 98%;
+  width: 98%;
+  text-align: center;
+}
+#outer {
+  color: purple;
+  border: 2px solid black;
+  width: 98%;
+}
+
+.row #outer {
+  height: 10%;
+}
+.row #topbar {
+  height: 10%;
+}
+
+#topbar {
+  width: 100%;
+}
+#a {
+  width: 40%;
+}
+#b {
+  width: 60%;
+}
+#c {
+  width: 25%;
+}
+#d {
+  width: 20%;
+}
+#e {
+  width: 25%;
+}
+#f {
+  width: 25%;
+}
+
 section ul li {
   background-color: purple;
 }
@@ -41,8 +99,9 @@ a {
   float: right;
 }
 a:hover {
-  color: blue;
+  color: orange;
 }
+
 
 .left {
   float: left;
@@ -71,6 +130,28 @@ a:hover {
   margin: 0;
 }
 
+.item {
+  border: 3px solid yellow;
+  padding: 1em;
+  margin: 1em;
+}
+.item4 {
+  border: 3px solid yellow;
+  padding: 1em;
+  margin: 1em;
+}
+
+.flex-direction {
+  flex-direction: row;
+
+}
+
+.flex-direction .flex-container {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .subdiv {
   position: absolute;
   right: 15em;
