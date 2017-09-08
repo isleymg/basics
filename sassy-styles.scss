@@ -1,0 +1,22 @@
+$top-right: 3em;
+$fancy-color: orange;
+
+@mixin my-border($color) {
+  $top-right: solid $color;
+}
+
+.list-view-controls {
+ 	position: absolute;
+	right: 2.5em;
+	top: 2.5em; 
+
+  :hover + .pl-items-wrapper ul {
+    flex-direction: column;
+
+    li {
+      border: none;
+      list-style-type: square;
+      padding: 0.5em;
+    }
+  }
+}

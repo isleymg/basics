@@ -1,0 +1,24 @@
+{
+  "name": "07-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass -w . -o styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui-dist": "^1.12.1"
+  },
+  "devDependencies": {
+    "foundation-sites": "^6.4.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jslint": "^1.1.15",
+    "grunt-sass": "^2.0.0"
+  }
+}

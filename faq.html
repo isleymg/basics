@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Basic CSS</title>
+  <meta name="description" content="Basic Responsive Design">
+  <meta name="author" content="Elias Carlston">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.css">
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/jquery-ui-dist/jquery-ui.js"></script>
+  <script>
+    $(document).ready( function() {
+      $( '.faqs' ).accordion({
+        collapsible: true;
+      });
+    });
+  </script>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1>Build a Playlist</h1>
+  <div class="grid">
+    <nav class="lg-col-1-3 md-col-1-2 push-right sm-top">
+      <h2>Menu</h2>
+      <ul>
+        <li>
+          <a>Home</a> 
+        </li>
+        <li>
+          <a>Library</a> 
+        </li>
+        <li>
+          <a>Account</a> 
+        </li>
+      </ul>
+    </nav>
+    <main class="lg-col-2-3 md-col-1-2 sm-bottom">
+      <h2>FAQ</h2>
+      <section class="lg-col-1-2 md-col-1-1 faqs">
+        <h3>
+          Short version
+        </h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui diam, suscipit vel nisl non, congue aliquam libero. Proin iaculis orci vel justo pellentesque, eu tincidunt lectus feugiat. Donec at pulvinar nunc. </div>
+        <h3>
+          Short version
+        </h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui diam, suscipit vel nisl non, congue aliquam libero. Proin iaculis orci vel justo pellentesque, eu tincidunt lectus feugiat. Donec at pulvinar nunc. </div>
+        <h3>
+          Short version
+        </h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui diam, suscipit vel nisl non, congue aliquam libero. Proin iaculis orci vel justo pellentesque, eu tincidunt lectus feugiat. Donec at pulvinar nunc. </div>
+        <h3>
+          Short version
+        </h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui diam, suscipit vel nisl non, congue aliquam libero. Proin iaculis orci vel justo pellentesque, eu tincidunt lectus feugiat. Donec at pulvinar nunc. </div>
+        <h3>
+          Short version
+        </h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui diam, suscipit vel nisl non, congue aliquam libero. Proin iaculis orci vel justo pellentesque, eu tincidunt lectus feugiat. Donec at pulvinar nunc. </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

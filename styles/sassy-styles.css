@@ -1,0 +1,10 @@
+.list-view-controls {
+  position: absolute;
+  right: 2.5em;
+  top: 2.5em; }
+  .list-view-controls :hover + .pl-items-wrapper ul {
+    flex-direction: column; }
+    .list-view-controls :hover + .pl-items-wrapper ul li {
+      border: none;
+      list-style-type: square;
+      padding: 0.5em; }
